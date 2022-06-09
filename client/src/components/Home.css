@@ -1,0 +1,93 @@
+.home {
+    background-image: url(https://images.unsplash.com/photo-1635321593217-40050ad13c74?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1748&q=80); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vw;
+    min-width: 100vw;
+    display:flex;
+    flex-direction: column; 
+    
+}
+
+.initialMsg {
+    display: flex;
+    color: red;
+    font-style: italic;
+    font-weight: 700;
+    text-shadow: 6px 4px 5px rgba(0,0,0,0.43);
+}
+
+.refreshButton {
+    color: rgb(231, 218, 218);
+    background-color: #ce5249;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 25px;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px 1px rgb(112, 44, 44);
+    cursor: pointer;
+}
+
+.refreshButton:hover {
+    color:#ce5249;
+    background-color: rgb(231, 218, 218);
+}
+
+.addButton {
+    color: rgb(231, 218, 218);
+    background-color: #ce5249;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 25px;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px 1px rgb(112, 44, 44);
+    cursor: pointer;
+}
+
+.addButton:hover {
+    color:#ce5249;
+    background-color: rgb(231, 218, 218);
+}
+
+.filters {
+    display: flex;
+    color: rgb(6, 6, 75);
+    font-style: italic;
+    font-weight: 500;
+    text-shadow: 6px 4px 5px rgba(0,0,0,0.43);
+    padding: 10px 3px 0px;
+}
+
+.select {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.eachRecipe {
+    display: flex;
+    padding: 3px;
+}
+
+.linkRecetas {
+    text-decoration: none;
+}
+
+.linkRecetas:visited {
+    color: none;
+    text-decoration: none;
+}
+
+.allrecipes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}

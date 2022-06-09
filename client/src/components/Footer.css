@@ -1,0 +1,11 @@
+  .footer {
+    background: yellow;
+    width: 500px;
+    display:flex;
+    position: fixed;
+    top: 720px;
+    align-items: flex;
+    flex-direction: left;
+    align-self: flex-end;
+    } 
+   
